@@ -1,0 +1,16 @@
+{
+  "name": "anticaptcha-proxy-vercel",
+  "version": "1.0.0",
+  "description": "Serverless proxy for Anti-Captcha with decoy headers",
+  "main": "api/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.27.0",
+  "dependencies": {
+    "@antiadmin/anticaptchaofficial": "^1.0.55"
+  }
+}
