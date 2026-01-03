@@ -4,7 +4,7 @@ const crypto = require("crypto");
 // --- 1. GLOBAL CONFIG (Runs once on Cold Start) ---
 
 // Constants
-const MAX_EXECUTION_TIME_MS = 9000; // 9s (Safe buffer for Vercel Hobby 10s limit)
+const MAX_EXECUTION_TIME_MS = 25000; // 9s (Safe buffer for Vercel Hobby 10s limit)
 const DECOY_HEADER_NAME = "x-ga-measurement-id";
 
 // Environment check (Fail fast if config is missing)
